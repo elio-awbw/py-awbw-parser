@@ -609,6 +609,7 @@ def main(zip_path, days=None):
     return parser
 
 if __name__ == "__main__":
-    fp = "/Users/elio/Downloads"
-    file = os.path.join(fp, "replay_1598704_AC6_D1_[F]_R1G08_-_(11)_SonjaTheSuperior_vs._(118)_elio_2026-03-16.zip")
+    filepath = "."
+    filename = "replay_1598704_AC6_D1_[F]_R1G08_-_(11)_SonjaTheSuperior_vs._(118)_elio_2026-03-16.zip"
+    file = os.path.join(filepath, filename)
     parser = main(file, days=[4, 11, 12, 13, 14])
